@@ -1,0 +1,56 @@
+#wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	background: #7FFFD4;
+	padding: 50px;
+}
+header img{
+	float: left;
+}
+header ul{
+	list-style: none;
+	float: right;
+}
+header ul li{
+	display: inline-block; 
+	margin-left: 20px;
+}
+header ul li:after{
+	content: "|";
+	padding-left: 20px;
+}
+header ul li:last-child:after{
+	content: "";
+	padding-left: 20px;
+}
+header a{
+	color: #757575;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+header a:hover {
+	color: #000000;
+}
+.horizontal_dotted_line{
+  border-bottom: 1px dotted [color];
+  width: [put your width here]px;
+}
+section{
+	float: right;
+	background: #FFFFFF;
+	width: 650px;
+}
+section img{
+	padding: 25px;
+}
+aside{
+	float: left;
+	width: 310px;
+}
+footer{
+	padding: 20px;
+	clear: both;
+}
